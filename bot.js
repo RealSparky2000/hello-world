@@ -18,9 +18,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'how are you?') {
-    	message.reply('Nice!');
-
+    if (message.content === 'how are you') {
+    	message.reply('NICE!');
  	}
 });
 
