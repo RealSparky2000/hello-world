@@ -27,7 +27,7 @@
 -    if (message.content === prefix+'bing') {
 -        message.reply('BONG!');
 -      }
--    if (message.content === prefix+'how are you') {
+-    if (message.content === prefix+'how-are-you') {
 -        message.reply('NICE!');
 -     }
 -});
