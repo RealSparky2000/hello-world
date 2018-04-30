@@ -5,7 +5,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-('message', message => {
+client.on('message''ready', message => {
     if (message.content === 'ping') {
     	message.channel.send('PONG!');
   	}
