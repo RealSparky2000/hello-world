@@ -1,2 +1,2 @@
-# hello-world
-Just another repository
+# DefinitelyNotBot
+A Discord bot coded in Discord.JS, hosted using Heroku.
