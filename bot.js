@@ -11,13 +11,13 @@ client.on('message''ready', message => {
   	}
 });
 
-('message', message => {
+client.on('message''ready', message => {
     if (message.content === 'bing') {
     	message.reply('BONG!');
   	}
 });
 
-('message', message => {
+client.on('message''ready', message => {
     if (message.content === 'how are you') {
     	message.reply('NICE!');
  	}
