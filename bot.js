@@ -7,23 +7,23 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message''ready', message => {
-    if (message.content === 'ping') {
-    	message.channel.send('PONG!');
-  	}
+var prefix = '&'
+
+client.on('message', message => {
+    
+    //чтобы бот не реагировал если сообщение не начинается с префикса
+    if(!message.content.startsWith(prefix)) return
+
+    if (message.content === prefix+'ping') {
+        message.channel.send('PONG!');
+      }
+    if (message.content === prefix+'bing') {
+        message.reply('BONG!');
+      }
+    if (message.content === prefix+'how are you') {
+        message.reply('NICE!');
+     }
 });
 
-client.on('message''ready', message => {
-    if (message.content === 'bing') {
-    	message.reply('BONG!');
-  	}
-});
 
-client.on('message''ready', message => {
-    if (message.content === 'believe') {
-    	message.reply('Dont Believe!');
- 	}
-});
-
-// THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
