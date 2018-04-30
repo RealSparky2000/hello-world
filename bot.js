@@ -5,19 +5,19 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => {
+('message', message => {
     if (message.content === 'ping') {
     	message.channel.send('PONG!');
   	}
 });
 
-client.on('message', message => {
+('message', message => {
     if (message.content === 'bing') {
     	message.reply('BONG!');
   	}
 });
 
-client.on('message', message => {
+('message', message => {
     if (message.content === 'how are you') {
     	message.reply('NICE!');
  	}
