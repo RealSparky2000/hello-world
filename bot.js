@@ -25,7 +25,7 @@ var PREFIX = '&'
        message.channel.send('BONG!');
        break;
 
-        case "how-are-you"
+	case "how-are-you":
        message.channel.send('NICE!');
         break;
 
