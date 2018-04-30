@@ -33,11 +33,15 @@
 -});
 +        break;
 +
++        case "ping":
++        message.channel.send('PONG!');
++        break;
++
 +        case "&bing":
 +        message.channel.send('BONG!');
 +        break;
 +
-+        case "&how are you":
++        case "&how-are-you"
 +        message.channel.send('NICE!');
 +        break;
  
