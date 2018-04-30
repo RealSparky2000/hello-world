@@ -20,11 +20,11 @@
 +    //метод
 +		switch (args[0].toLowerCase()) {
  
--    if (message.content === prefix+'ping') {
+-    if (message.content === prefix+'&ping') {
 +        case "ping":
          message.channel.send('PONG!');
 -      }
--    if (message.content === prefix+'bing') {
+-    if (message.content === prefix+'&bing') {
 -        message.reply('BONG!');
 -      }
 -    if (message.content === prefix+'how-are-you') {
